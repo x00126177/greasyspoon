@@ -1,0 +1,329 @@
+#container {
+	font-family: Courier;
+}
+	
+#header h1{
+	font-family: Courier;
+	font-size: 3.25em;
+}
+
+/*	NAVBAR */
+#nav {
+font-family: Courier;
+background-color: #c4c0bd;
+border-radius: 10px;
+}
+#nav a{
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size:1.5em;
+}
+#nav li{
+display: inline-block;
+padding: 1em;
+}
+#border-top {
+height: 3em;
+width: 40%;
+}
+
+
+
+/*	TYPES CATEGORY ON food */
+#types {
+width: 40%;
+float: left;
+height: 40em;
+background-color: #c4c0bd;
+border-radius: 25px;
+			
+text-align: center;
+}
+#types a {
+text-decoration: none;
+color: white;
+}
+#types li{
+display: inline-block;
+padding-top: 35%;
+}
+#types h1{
+	font-size: 10em;
+}
+
+
+
+/*	MEALS CATEGORY ON FOOD */
+#meals {
+width: 40%;
+float: right;
+height: 40em;
+background-color: #c4c0bd;
+			
+border-radius: 25px;
+
+text-align: center;
+}
+#meals a {
+text-decoration: none;
+color: white;
+
+}
+#meals li{
+display: inline-block;
+padding-top: 35%;		
+}
+#meals h1{
+	font-size: 10em;
+}
+/*************************************************************************************************/
+/*	INSIDE TYPES.HTML */
+.row1 {
+
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 95%;
+transform: translate(-50%, -50%);
+color: #e6e6e6;
+
+
+}
+.centered2 {
+position: absolute;
+top: 50%;
+left: 60%;
+transform: translate(-50%, -50%);
+color: #e6e6e6;
+
+
+}
+
+/*	AMERICAN CATEGORY */
+#american{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+#american img{
+width: 200%;
+height: 400%;
+
+border-radius: 25px;
+}
+#american h1{
+	font-size:60px;
+}
+
+
+/*	CHINESE CATEGORY */
+#chinese{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+#chinese img{
+width: 200%;
+height: 200%;
+
+border-radius: 25px;
+}
+#chinese h1{
+	font-size:60px;
+}
+
+/*	Indian CATEGORY */
+#indian{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+#indian img{
+width: 200%;
+height: 200%;
+
+border-radius: 25px;
+}
+#indian h1{
+	font-size:60px;
+}
+/*	ROW 2	*/
+.row2 {
+	padding-left: 10em;
+}
+
+/*	Italian CATEGORY */
+#italian{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#italian img{
+width: 125%;
+height: 125%;
+
+border-radius: 25px;
+}
+#italian h1{
+	font-size:60px;
+}
+
+
+/*	thai CATEGORY */
+#thai{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+#thai img{
+width: 125%;
+height: 125%;
+
+border-radius: 25px;
+}
+#thai h1{
+	font-size:60px;
+}
+
+/*break made*/
+#break {
+	width:12%;
+	display: inline-block;
+	height: 300px;
+	background-color:white;
+	float:left;
+}
+		
+		
+		
+/*	INSIDE MEALS.HTML */
+/*	BREAKFAST CATEGORY */
+#breakfastMEAL {
+width: 40%;
+float: left;
+height: 300px;
+background-color: #c4c0bd;
+border-radius: 25px;
+
+text-align: center;
+			
+}
+#breakfastMEAL a {
+text-decoration: none;
+color: white;
+
+
+}
+#breakfastMEAL li{
+display: inline-block;
+padding-top: 6em;
+}
+#breakfastMEAL h1{
+	font-size: 5em;
+
+}
+#breakfastMEAL img{ 
+	width: 20%;
+	height: auto;
+}
+
+/*	BRUNCH CATEGORY */
+#brunchMEAL {
+width: 40%;
+float: right;
+height: 300px;
+background-color: #c4c0bd;
+			
+border-radius: 25px;
+
+text-align: center;
+}
+#brunchMEAL a {
+text-decoration: none;
+color: white;
+
+}
+#brunchMEAL li{
+display: inline-block;
+padding-top: 6em;		
+}
+#brunchMEAL h1{
+	font-size: 5em;
+}
+#brunchMEAL img{
+	width: 20%;
+	height: auto;
+}
+
+
+/*	boxes break */
+#breaker {
+	display: inline-block;
+	height: 1em;
+	width: 90%;
+	
+}
+
+/*	LUNCH CATEGORY */
+#lunchMEAL {
+width: 40%;
+float: left;
+height: 300px;
+background-color: #c4c0bd;
+border-radius: 25px;
+			
+text-align: center;
+}
+#lunchMEAL a {
+text-decoration: none;
+color: white;
+
+			
+}
+#lunchMEAL li{
+display: inline-block;
+padding-top: 6em;
+}
+#lunchMEAL h1{
+	font-size: 5em;
+}
+#lunchMEAL img{ 
+	width: 15%;
+	height: auto;
+}
+
+
+/*	DINNER CATEGORY */
+#dinnerMEAL {
+width: 40%;
+float: right;
+height: 300px;
+background-color: #c4c0bd;
+			
+border-radius: 25px;
+
+text-align: center;
+}
+#dinnerMEAL a {
+text-decoration: none;
+color: white;
+}
+#dinnerMEAL li{
+display: inline-block;
+padding-top: 6em;		
+}
+#dinnerMEAL h1{
+	font-size: 5em;
+}
+#dinnerMEAL img{ 
+	width: 20%;
+	height: auto;
+}
+
+/*************************************************************************************************************/
+
+
